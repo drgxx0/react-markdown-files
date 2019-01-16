@@ -1,0 +1,11 @@
+.App {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background: rgb(39, 104, 129);
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.8fr;
+    grid-template-areas:
+    "editor"
+    "preview";
+}

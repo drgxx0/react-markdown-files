@@ -1,0 +1,25 @@
+.editorBox {
+    grid-area: editor;
+    justify-self: center;
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.editorHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px 0 5px;
+    align-items: center;
+    width: inherit;
+    background: #4FB3C1;
+    border: 1px solid black;
+}
+
+.editorBox textarea {
+    width: inherit;
+    height: 200px;
+    background: rgb(169, 218, 224);
+    border: 1px solid black;
+    overflow-y: scroll;
+}
